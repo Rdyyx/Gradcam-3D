@@ -1,0 +1,20 @@
+# Config File
+
+device: 'cpu'
+weight_path: "./weights/resnet50_best_model.pth"
+data_path: './'
+
+# train_dataloader_args:
+batch_size: 1
+shuffle: True
+pin_memory: True
+num_workers: 4
+drop_last: True
+
+# slice
+table_name: 'yourtablename'
+start_slice: 28
+end_slice: 29
+
+#img
+img_save_path: './img'
